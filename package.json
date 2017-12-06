@@ -1,6 +1,6 @@
 {
   "name": "react-native-sketch",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "A react-native component for touch-based drawing",
   "main": "index.ios.js",
   "dependencies": {},
@@ -13,7 +13,7 @@
     "eslint-plugin-react": "^7.4.0",
     "prop-types": "^15.6.0",
     "react": "^16.0.0",
-    "react-native": "^0.49.3"
+    "react-native": "0.51.0"
   },
   "scripts": {
     "postversion": "git push && git push --tags",

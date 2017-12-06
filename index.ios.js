@@ -1,5 +1,5 @@
 import React from "react";
-import {NativeModules, requireNativeComponent, StyleSheet, View} from "react-native";
+import {NativeModules, requireNativeComponent, StyleSheet, View, ViewPropTypes} from "react-native";
 import PropTypes from 'prop-types';
 
 const {func, number, string} = PropTypes;
@@ -18,7 +18,7 @@ export default class Sketch extends React.Component {
     onUpdate: func,
     strokeColor: string,
     strokeThickness: number,
-    style: View.propTypes.style,
+    style: ViewPropTypes.style,
   };
 
   static defaultProps = {
